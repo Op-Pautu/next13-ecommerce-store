@@ -16,6 +16,8 @@ const useCart = create(
         addItem: (data: Product) => {
             const currentItems = get().items;
             const existingItem = currentItems.find(item => item.id === data.id);
+            // If you were using .filter, it would return an array containing all items with matching id values, 
+            // and you would need to process that array further to check if there are any matches. 
 
             if (existingItem) {
                 return toast("Item already in cart.")
