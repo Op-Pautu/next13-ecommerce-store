@@ -7,7 +7,7 @@ import IconButton from "./IconButton";
 import { Expand, ShoppingCart } from "lucide-react";
 import Currency from "./Currency";
 import { useRouter } from "next/navigation";
-import usePreviewModal from "@/hooks/usePreviewModel";
+import usePreviewModal from "@/hooks/usePreviewModal";
 
 interface ProductCardProps {
   data: Product;

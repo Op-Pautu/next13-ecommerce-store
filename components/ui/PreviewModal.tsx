@@ -1,6 +1,6 @@
 "use client";
 
-import usePreviewModal from "@/hooks/usePreviewModel";
+import usePreviewModal from "@/hooks/usePreviewModal";
 import React from "react";
 import Modal from "./Modal";
 import Gallery from "../gallery";
